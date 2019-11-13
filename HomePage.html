@@ -1,0 +1,34 @@
+<!doctype HTML>
+<html>
+	<head>
+		<title>Hangman</title>
+		<link rel="stylesheet" href="HangmanCSS.css"/>
+	</head>
+		
+		<body id="body">
+            <div id="Container">
+				<div id="header">
+					<p>Welcome to Hangman <br>
+					Please choose your difficulty: </p>
+				</div>
+					<div id="Buttons">
+						<button id="Button1" type="button">Easy</button>
+                        <p>Easy is word length 3-5.</p>
+						<button id="Button2" type="button">Medium</button>
+                        <p>Medium is length 6-9.</p>
+						<button id="Button3" type="button">Hard</button>
+                        <p>Hard is word length 10-15.</p>
+                </div>
+				
+			</div>
+            <p id="guessWord">Guess Word: </p>
+            <div id="holdWords"></div>
+            <canvas id="stickman"></canvas>
+            <script src="canvas.js"></script>
+
+			     <div id="AJAX"></div>
+            
+			
+		</body>
+	
+</html>

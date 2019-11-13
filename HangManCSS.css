@@ -1,0 +1,51 @@
+body {background-color:cyan;}
+
+#header {text-align: center;
+		font-weight: bold;
+		font-size: 35px;}
+#Buttons {text-align: center;
+		padding:20px;
+		border:inset;
+		background:lightslategrey;
+}
+#Button1 {background:lightgreen;
+		border-radius:5px;
+		font-size:30px;
+		padding-right:5px;
+}
+#Button2 {background:lightgreen;
+		border-radius:5px;
+		font-size:30px;
+		padding-right:5px;
+}
+#Button3 {background:lightgreen;
+		border-radius:5px;
+		font-size:30px;
+		padding-right:5px;
+}
+canvas {
+	text-align:center;
+	border:5px solid black;
+	margin-left:565px;
+	margin-top:140px;
+	height:400px;
+	width:400px;
+}
+#Letters {margin-top:150px;
+		margin-left:550px;
+        font-size: 20px;}
+
+#alphabet {
+    @include clear;
+    margin:15px auto;
+    padding: 0;
+    max-width: 900px;
+}
+#holdWords {
+    text-align: center;
+    padding-top: 40px;
+}
+#guessWord {
+    text-align: center;
+    padding-top: 20px;
+}
